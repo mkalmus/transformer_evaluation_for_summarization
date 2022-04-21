@@ -4,9 +4,10 @@
 ### The directory contains the following files:
 ```baseline_script.ipynb```: used to create a simple three-sentence baseline. Note that multiprocessing needs to be rewritten.
 ```summarization_script.ipynb```: script to apply Hugging Face's pre-trained models for summarization
-```evaluation_script.ipynb```: script to evaluate generated summaries against the ground truth summmaries by ROUGE and BLEU.
+```evaluation_script.ipynb```: script to evaluate generated summaries against the ground truth summmaries by ROUGE and BLEU. Its current state is kind of raw so we are working on making this much cleaner.
 
 ### To-do:
+[ ] Functionize evaluation script
 [ ] Better documentation throughout notebooks with links to Transformers docs <br>
 [ ] Modularize code to more easily work with all the data in the Datasets package <br>
 [ ] Reimplement multiprocessing in tokenization and baseline creation <br>
