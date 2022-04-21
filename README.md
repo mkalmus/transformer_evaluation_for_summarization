@@ -8,6 +8,7 @@
 ```comparing_transformer_summarizers.pdf```: the associated write-up with this research <br>
 
 ### To-do:
+[ ] Proper requirements.txt <br>
 [ ] Functionize evaluation script <br>
 [ ] Better documentation throughout notebooks with links to Transformers docs <br>
 [ ] Modularize code to more easily work with all the data in the Datasets package <br>
