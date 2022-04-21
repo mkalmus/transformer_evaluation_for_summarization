@@ -8,4 +8,5 @@
 
 ### To-do:
 [ ] Better documentation throughout notebooks with links to Transformers docs <br>
-[ ] Modularize code to more easily work with all the data in the Datasets package
+[ ] Modularize code to more easily work with all the data in the Datasets package <br>
+[ ] Reimplement multiprocessing in tokenization and baseline creation <br>
