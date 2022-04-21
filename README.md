@@ -2,9 +2,10 @@
 **Please note that we are still working on further documenting the notebooks and further modularizing the code. Also, running the code will require significant RAM and a GPU. Lastly, PLEASE NOTE that running the code will store a TON of stuff in the directory you use for your Hugging Face cache. Future iterations could improve on this.**
 
 ### The directory contains the following files:
-```baseline_script.ipynb```: used to create a simple three-sentence baseline. Note that multiprocessing needs to be rewritten.
-```summarization_script.ipynb```: script to apply Hugging Face's pre-trained models for summarization
-```evaluation_script.ipynb```: script to evaluate generated summaries against the ground truth summmaries by ROUGE and BLEU. Its current state is kind of raw so we are working on making this much cleaner.
+```baseline_script.ipynb```: used to create a simple three-sentence baseline. Note that multiprocessing needs to be rewritten. <br>
+```summarization_script.ipynb```: script to apply Hugging Face's pre-trained models for summarization. <br>
+```evaluation_script.ipynb```: script to evaluate generated summaries against the ground truth summmaries by ROUGE and BLEU. Its current state is kind of raw so we are working on making this much cleaner. <br>
+```comparing_transformer_summarizers.pdf```: the associated write-up with this research <br>
 
 ### To-do:
 [ ] Functionize evaluation script <br>
