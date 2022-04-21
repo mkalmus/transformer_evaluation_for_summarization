@@ -7,7 +7,7 @@
 ```evaluation_script.ipynb```: script to evaluate generated summaries against the ground truth summmaries by ROUGE and BLEU. Its current state is kind of raw so we are working on making this much cleaner.
 
 ### To-do:
-[ ] Functionize evaluation script
+[ ] Functionize evaluation script <br>
 [ ] Better documentation throughout notebooks with links to Transformers docs <br>
 [ ] Modularize code to more easily work with all the data in the Datasets package <br>
 [ ] Reimplement multiprocessing in tokenization and baseline creation <br>
